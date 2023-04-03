@@ -1,0 +1,124 @@
+/* CSS Stylesheet for Harvard Web Development CS50W Project 0 */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* Basic styles */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Nav styles */
+
+nav ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row-reverse;
+
+}
+
+nav li {
+    margin: 0 1% 0 1%;;
+}
+
+.adv-search nav ul {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.adv-search h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.adv-search ul {
+    padding: 0;
+}
+
+/* Search styles */
+
+.search-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30vh;
+    align-items: center;
+}
+
+.search-main form {
+    width: 472px;
+}
+
+.search-main form input:hover, .search-main form input:focus {
+    border-color: #c3c3c3;
+    outline: none;
+}
+
+form input {
+    width: 100%;
+    border-radius: 16px;
+    height: 32px;
+    border-style: solid;
+    border-color: #e7e7e7;
+}
+
+.flex-row {
+    width: 480px;
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex-row input {
+    width: 33%;
+    border-radius: 6px;
+    padding: .5rem;
+    border: none;
+}
+
+.adv-search form {
+    width: 50%;
+}
+
+.adv-search form input {
+    width: 68%;
+    border-radius: 0px;
+}
+
+.adv-search form label {
+    width: 30%;
+    display: inline-flex;
+    
+}
+
+.adv-search form input[type=submit] {
+    width: 20%;
+    
+}
+
+.margin-tb {
+    margin: 2% 0;
+}
+
+/* Colors */
+
+.blue {
+    color: #4285f4;
+}
+
+.red {
+    color: #ea4335;
+}
+
+.yellow {
+    color: #fbbc05;
+}
+
+.green {
+    color: #34a853;
+}
